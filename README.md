@@ -1,26 +1,45 @@
-# dioxus_ui
-🎉  :sparkles: 新機能
+# Dioxus UI
 
-🐛  :bug: バグ修正
+[dioxus](https://github.com/DioxusLabs/dioxus) と私にとって必要な小道具を作っています。
 
-♻️  :recycle: リファクタリング
+A little tool need for started to grow [dioxus](https://github.com/DioxusLabs/dioxus) and me.
 
-📚  :books: ドキュメント
+## Features
 
-🎨  :art: デザインUI/UX
+これらのツールはすでに[DioxusLabs/components](https://github.com/DioxusLabs/components)に存在しています。良いものを選択してください。
 
-🐎  :horse: パフォーマンス
+These tools already exist in [DioxusLabs/components](https://github.com/DioxusLabs/components). You can choose the one that suits you best.
 
-🔧  :wrench: ツール
+- [] Button
+- [] Modal
+- [] FolderTree
+- [] Table
+- [] ...
 
-🚨  :rotating_light: テスト
 
-💩  :hankey: 非推奨追加
 
-🗑️  :wastebasket: 削除
+## Installation
+TODO
 
-🚧  :construction: WIP
 
-🚚  :truck: ファイルの移動
+## License
 
-🔖  :bookmark: バージョンタグ
+This project is licensed under the MIT License.
+
+
+
+# Commit
+- 🎉: 新機能 new feature
+- 🐛: バグ修正 fix bug
+- ♻️: リファクタリング refactor
+- 📚: ドキュメント doc
+- 🎨: デザインUI/UX degign
+- 🐎: パフォーマンス performance
+- 🔧: ツール tool
+- 🚨: テスト test
+- 💩: 非推奨追加 unko
+- 🗑️: 削除 del
+- 🚧: WIP
+- 🚚: ファイルの移動 move
+- 🔖: バージョンタグ tag
+- you like this
