@@ -1,12 +1,12 @@
 # Dioxus UI
 
-[dioxus](https://github.com/DioxusLabs/dioxus) と私にとって必要な小道具を作っています。
+私のための工具です。
 
-A little tool need for started to grow [dioxus](https://github.com/DioxusLabs/dioxus) and me.
+A little tool need for me.
 
 ## Features
 
-これらのツールはすでに[DioxusLabs/components](https://github.com/DioxusLabs/components)に存在しています。良いものを選択してください。
+これらのツールはすでに[DioxusLabs/components](https://github.com/DioxusLabs/components)に存在しています。お好きなものを使ってください。
 
 These tools already exist in [DioxusLabs/components](https://github.com/DioxusLabs/components). You can choose the one that suits you best.
 
@@ -27,8 +27,8 @@ TODO
 This project is licensed under the MIT License.
 
 
+## memo
 
-# Commit
 - 🎉: 新機能 new feature
 - 🐛: バグ修正 fix bug
 - ♻️: リファクタリング refactor
