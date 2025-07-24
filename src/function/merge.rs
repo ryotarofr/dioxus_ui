@@ -36,7 +36,7 @@ pub fn merge(objs: Vec<Value>) -> Value {
                 None => proc,
                 Some(val) => {
                     let mergeable = is_mergeable(&val) && 
-                                  proc.as_ref().map_or(true, |p| is_mergeable(p));
+                        proc.as_ref().is_none_or(is_mergeable);
                     
                     if !mergeable {
                         Some(val)
@@ -44,7 +44,7 @@ pub fn merge(objs: Vec<Value>) -> Value {
                         match proc {
                             None => Some(val),
                             Some(proc_val) => {
-                                if let (Value::Object(proc_map), Value::Object(val_map)) = 
+                                if let (Value::Object(_), Value::Object(_)) = 
                                     (&proc_val, &val) {
                                     Some(merge(vec![proc_val, val]))
                                 } else {
