@@ -10,11 +10,11 @@ A little tool need for started to grow [dioxus](https://github.com/DioxusLabs/di
 
 These tools already exist in [DioxusLabs/components](https://github.com/DioxusLabs/components). You can choose the one that suits you best.
 
-- [] Button
-- [] Modal
-- [] FolderTree
-- [] Table
-- [] ...
+- [ ] Button
+- [ ] Modal
+- [ ] FolderTree
+- [ ] Table
+- [ ] ...
 
 
 
