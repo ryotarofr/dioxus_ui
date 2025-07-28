@@ -1,3 +1,0 @@
-pub fn Table() -> Element {
-  
-}

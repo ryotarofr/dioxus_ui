@@ -1,8 +1,8 @@
 use dioxus::prelude::*;
 
-const FAVICON: Asset = asset!("/assets/favicon.ico");
+use ui::Hero;
+
 const MAIN_CSS: Asset = asset!("/assets/main.css");
-const HEADER_SVG: Asset = asset!("/assets/header.svg");
 
 fn main() {
     dioxus::launch(App);
@@ -10,8 +10,13 @@ fn main() {
 
 #[component]
 fn App() -> Element {
+    // Build cool things ✌️
+
     rsx! {
-        document::Link { rel: "icon", href: FAVICON }
+        // Global app resources
         document::Link { rel: "stylesheet", href: MAIN_CSS }
+
+        Hero {}
+
     }
 }
